@@ -58,12 +58,6 @@ ul li .slide
 	transition: transform 0.5s;
 	transform: rotateY(90deg);
 	transform-origin: left;
-
-
--webkit-box-shadow: inset 0px 0px 52px -20px rgba(0,0,0,0.75);
--moz-box-shadow: inset 0px 0px 52px -20px rgba(0,0,0,0.75);
-box-shadow: inset 0px 0px 52px -20px rgba(0,0,0,0.75);
-
 z-index: -1;
 
 }
