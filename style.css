@@ -55,6 +55,8 @@ ul li
 {
 	list-style: none;
 	margin: 0 0 40px;
+		background: #222;
+	border-radius: 20px;
 }
 
 ul li .slide
@@ -77,6 +79,14 @@ ul li input[type="radio"]
 	height: 30px;
 	width: 30px;
 }
+
+
+.container ul li
+{
+	background: #222;
+	border-radius: 20px;
+}
+
 
 ul li input[type="radio"]:checked ~ .slide
 {
@@ -316,6 +326,11 @@ padding: 0.5vh 2vw;
 	margin: 2.9vh 0vw;
 }
 
+.number-grid div:nth-child(1)
+{
+	background: transparent;
+}
+
 .number-grid div:nth-child(4n+1) p
 {
 	margin: 1.1vh 0vw;
@@ -325,6 +340,32 @@ padding: 0.5vh 2vw;
 {
 	margin: 3vh 0vw;
 }
+
+
+.c-l
+{
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	width: 50%;
+	height: 90%;
+	background: transparent;
+	z-index: 10;
+}
+
+
+
+.c-r
+{
+	top: 0px;
+	right: 0px;
+	position: absolute;
+	width: 50%;
+	height: 90%;
+	background: transparent;
+	z-index: 10;
+}
+
 
 
 

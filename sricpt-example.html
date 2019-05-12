@@ -1,0 +1,38 @@
+<html>
+<head>
+	<style>
+		#clickable 
+		{
+			height:70px;
+			background-color: green;
+			margin-bottom:20px;
+		}
+		
+		.switcher
+		{
+			background-color: red;
+			padding:20px;
+		}
+		
+	</style>
+
+
+	<script>
+	function nextRadio() 
+	{
+	  var gotoID = document.querySelector("input:checked").value;
+	  document.getElementById(gotoID).checked = "checked";
+	}
+	</script>
+
+	
+</head>
+<body>
+  <div id="clickable" onclick="nextRadio()"></div>
+  <div class="switcher"><b>Каким браузером в основном пользуетесь:</b><Br>
+   <input type="radio" name="browser" id="one" value="two" checked="checked"> Chrome<Br>
+   <input type="radio" name="browser" id="two" value="three"> Opera<Br>
+   <input type="radio" name="browser" id="three" value="one"> Firefox<Br>
+  </div>
+</body>
+</html>
